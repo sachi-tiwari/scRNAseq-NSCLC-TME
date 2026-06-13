@@ -99,15 +99,17 @@ source("scripts/02_download_data.R")
 
 ## Author
 
+
 Sachi Tiwari
 
 M.Sc. Bioinformatics, Babasaheb Bhimrao Ambedkar University, Lucknow
 
-Email: sachitiwari722@gmail.com
+Email: [sachitiwari722@gmail.com](mailto:sachitiwari722@gmail.com)
 
-LinkedIn: linkedin.com/in/sachi-tiwari
+LinkedIn: [linkedin.com/in/sachi-tiwari](https://linkedin.com/in/sachi-tiwari)
 
-GitHub: github.com/sachi-tiwari
+GitHub: [github.com/sachi-tiwari](https://github.com/sachi-tiwari)
+
 
 ## License
 
