@@ -71,7 +71,8 @@ seurat_obj_filtered <- FindClusters(
 # Use clustree to visualize cluster stability across resolutions
 # Each node = a cluster; edges show how clusters split/merge as resolution increases
 # Choose a resolution where clusters are stable (minimal splitting/merging)
-clustree(seurat_obj_filtered@meta.data, prefix = "RNA_snn_res.")
+p_clustree <- clustree(seurat_obj_filtered@meta.data, prefix = "RNA_snn_res.")
+ggsave("figures/clustree_resolution.png", plot = p_clustree, width = 10, height = 8, dpi = 300, bg = "white")
 
 # Resolution 0.5 selected — stable clusters with biologically meaningful separation
 Idents(seurat_obj_filtered) <- "RNA_snn_res.0.5"
