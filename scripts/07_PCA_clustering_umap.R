@@ -49,7 +49,13 @@ DimPlot(seurat_obj_filtered, reduction = "pca")
 # Elbow plot — used to determine how many PCs capture meaningful variation
 # Look for the "elbow" where standard deviation levels off
 # Based on this plot, dims 1:15 were selected
-ElbowPlot(seurat_obj_filtered)
+
+p_elbow <- ElbowPlot(seurat_obj_filtered) +
+  ggtitle("Elbow Plot - PCA") +
+  theme(panel.background = element_rect(fill = "white"),
+        plot.background = element_rect(fill = "white"))
+ggsave("figures/elbow_plot.png", plot = p_elbow, width = 8, height = 6, dpi = 300, bg = "white")
+
 
 # --- Section 3: Clustering ---
 
@@ -78,8 +84,15 @@ cat("Number of clusters:", length(unique(Idents(seurat_obj_filtered))), "\n")
 seurat_obj_filtered <- RunUMAP(seurat_obj_filtered, dims = 1:15)
 
 # Visualize clusters on UMAP
-DimPlot(seurat_obj_filtered, reduction = "umap", label = TRUE) +
-  ggtitle("UMAP — Clusters at Resolution 0.5")
+
+p_umap_clusters <- DimPlot(seurat_obj_filtered, reduction = "umap", 
+                            group.by = "RNA_snn_res.0.5", label = TRUE) +
+  ggtitle("UMAP - Clusters at Resolution 0.5") +
+  theme(panel.background = element_rect(fill = "white"),
+        plot.background = element_rect(fill = "white"))
+ggsave("figures/umap_clusters.png", plot = p_umap_clusters, width = 10, height = 8, dpi = 300, bg = "white")
+
+
 
 # Save checkpoint after UMAP
 saveRDS(seurat_obj_filtered, file = "results/seurat_obj_filtered_afterUMAP.rds")

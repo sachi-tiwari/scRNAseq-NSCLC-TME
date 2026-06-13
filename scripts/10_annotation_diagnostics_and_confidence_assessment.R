@@ -33,10 +33,17 @@ cat("Pruned label distribution (NA = ambiguous):\n")
 print(table(seurat_obj_filtered$SingleR_pruned_label, useNA = "ifany"))
 
 # Visualize ambiguous cells on UMAP (grey = ambiguous)
-DimPlot(seurat_obj_filtered, 
-        group.by = "SingleR_pruned_label", 
-        label = TRUE, repel = TRUE, na.value = "grey") +
-  ggtitle("SingleR Pruned Labels (Ambiguous = Grey)")
+
+p_pruned <- DimPlot(seurat_obj_filtered, group.by = "SingleR_pruned_label", 
+                    label = TRUE, repel = TRUE, na.value = "grey",
+                    label.size = 3) +
+  ggtitle("SingleR Pruned Labels (Ambiguous = Grey)") +
+  theme(plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+        panel.background = element_rect(fill = "white"),
+        plot.background = element_rect(fill = "white"))
+
+ggsave("figures/umap_pruned_labels.png", plot = p_pruned, width = 10, height = 8, dpi = 300, bg = "white")
+
 
 # --- Section 2: Delta score distribution ---
 

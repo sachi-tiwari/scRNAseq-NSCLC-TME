@@ -33,32 +33,35 @@ print(seurat_obj_filtered)
 meta <- seurat_obj_filtered@meta.data
 
 # nFeature_RNA distribution after filtering
-ggplot(meta, aes(x = nFeature_RNA)) +
+p1 <- ggplot(meta, aes(x = nFeature_RNA)) +
   geom_histogram(bins = 100, fill = "skyblue", color = "black", alpha = 0.7) +
   geom_density(aes(y = after_stat(scaled) * max(after_stat(count))),
                color = "red", linewidth = 1) +
   theme_minimal() +
   labs(title = "nFeature_RNA Distribution (Post-filtering)",
        x = "nFeature_RNA", y = "Cell Count")
+ggsave("figures/qc_histogram_nFeature.png", plot = p1, width = 8, height = 6, dpi = 300, bg = "white")
 
 # nCount_RNA distribution after filtering
-ggplot(meta, aes(x = nCount_RNA)) +
+p2 <- ggplot(meta, aes(x = nCount_RNA)) +
   geom_histogram(bins = 100, fill = "orange", color = "black", alpha = 0.7) +
   geom_density(aes(y = after_stat(scaled) * max(after_stat(count))),
                color = "red", linewidth = 1) +
   theme_minimal() +
   labs(title = "nCount_RNA Distribution (Post-filtering)",
        x = "nCount_RNA", y = "Cell Count")
+ggsave("figures/qc_histogram_nCount.png", plot = p2, width = 8, height = 6, dpi = 300, bg = "white")
+
 
 # Mitochondrial % distribution after filtering
-ggplot(meta, aes(x = percent.mt)) +
+p3 <-  ggplot(meta, aes(x = percent.mt)) +
   geom_histogram(bins = 100, fill = "lightgreen", color = "black", alpha = 0.7) +
   geom_density(aes(y = after_stat(scaled) * max(after_stat(count))),
                color = "red", linewidth = 1) +
   theme_minimal() +
   labs(title = "Mitochondrial % Distribution (Post-filtering)",
        x = "percent.mt", y = "Cell Count")
-
+ggsave("figures/qc_histogram_percentmt.png", plot = p3, width = 8, height = 6, dpi = 300, bg = "white")
 # --- Section 3: Normalize data ---
 
 # Log normalization: normalizes each cell to total count of 10,000

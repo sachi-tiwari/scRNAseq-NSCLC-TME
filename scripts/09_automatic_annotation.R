@@ -117,20 +117,25 @@ print(table(seurat_obj_filtered$cell_type_cleaned))
 
 # --- Section 5: Visualize cleaned annotations ---
 
-p <- DimPlot(seurat_obj_filtered, 
-             group.by = "cell_type_cleaned", 
-             label = FALSE)
+p_celltypes <- DimPlot(seurat_obj_filtered, group.by = "cell_type_cleaned", label = FALSE) +
+  theme(panel.background = element_rect(fill = "white"),
+        plot.background = element_rect(fill = "white"))
 
-LabelClusters(plot = p, id = "cell_type_cleaned") +
+p_celltypes_labeled <- LabelClusters(plot = p_celltypes, id = "cell_type_cleaned") +
   ggtitle("Cleaned Cell Type Annotation")
 
+ggsave("figures/umap_celltypes_cleaned.png", plot = p_celltypes_labeled, width = 10, height = 8, dpi = 300, bg = "white")
+
 # Proportion bar plot
-Proportion_Plot(
+
+p_proportion <- Proportion_Plot(
   seurat_object = seurat_obj_filtered,
-  group_by_var = "cell_type_cleaned",
+  group.by = "cell_type_cleaned",
   plot_type = "bar",
   plot_scale = "percent"
-)
+) + theme(panel.background = element_rect(fill = "white"),
+          plot.background = element_rect(fill = "white"))
+ggsave("figures/celltype_proportions.png", plot = p_proportion, width = 10, height = 6, dpi = 300, bg = "white")
 
 # --- Section 6: Export results ---
 
