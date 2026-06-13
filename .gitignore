@@ -1,0 +1,7 @@
+data/raw_data/
+*.rds
+*.RData
+.Rhistory
+.Rproj.user/
+*.Rproj
+.DS_Store

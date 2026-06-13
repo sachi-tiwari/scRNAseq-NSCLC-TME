@@ -1,0 +1,45 @@
+"","Var1","Freq"
+"1","Astrocyte",8
+"2","B cells",11893
+"3","B_cell",9408
+"4","Basophils",2619
+"5","BM",6
+"6","BM & Prog.",18
+"7","CD4+ T cells",16170
+"8","CD8+ T cells",6540
+"9","Chondrocytes",591
+"10","CMP",311
+"11","DC",2833
+"12","Dendritic cells",3987
+"13","Embryonic_stem_cells",41
+"14","Endothelial_cells",2172
+"15","Epithelial_cells",14688
+"16","Erythroblast",7
+"17","Fibroblasts",896
+"18","Gametocytes",1
+"19","GMP",46
+"20","Hepatocytes",21
+"21","HSC_-G-CSF",5
+"22","HSC_CD34+",46
+"23","iPS_cells",97
+"24","Keratinocytes",111
+"25","Macrophage",15000
+"26","Monocyte",6174
+"27","Monocytes",1831
+"28","MSC",32
+"29","Myelocyte",5
+"30","Neuroepithelial_cell",11
+"31","Neurons",48
+"32","Neutrophils",4512
+"33","NK cells",422
+"34","NK_cell",4539
+"35","Osteoblasts",13
+"36","Platelets",4
+"37","Pre-B_cell_CD34-",172
+"38","Pro-B_cell_CD34+",92
+"39","Pro-Myelocyte",8
+"40","Progenitors",190
+"41","Smooth_muscle_cells",563
+"42","T cells",13784
+"43","T_cells",24144
+"44","Tissue_stem_cells",2160

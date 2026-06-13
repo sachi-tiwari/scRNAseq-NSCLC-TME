@@ -1,0 +1,127 @@
+CellType,canonicalMarker
+B cells,"	CD74"
+B cells,CD79A
+B cells,IGHM
+B cells,MS4A1
+B cells,CD19
+B cells,CD79B
+B cells,CD22
+B cells,CD24
+B cells,BANK1
+B cells,MME
+Basophils,CPA3
+Basophils,CCR3
+Basophils,CD123
+Basophils,CD203c
+Basophils,PRG2
+Basophils,TPSAB1
+Basophils,HDC
+Basophils,IL4
+Dendritic cells,ITGAX
+Dendritic cells,HLA-DRD
+Dendritic cells,CD1C
+Dendritic cells,CLEC9A
+Dendritic cells,LAMP3
+Dendritic cells,CD83
+Dendritic cells,IRF8
+Dendritic cells,CD209
+Dendritic cells,FCER1A
+Dendritic cells,BATF3
+Endothelial cells,PECAM1
+Endothelial cells,VWF
+Endothelial cells,ENG
+Endothelial cells,CDH5
+Endothelial cells,TIE1
+Endothelial cells,FLT1
+Endothelial cells,KDR
+Endothelial cells,ESAM
+Endothelial cells,CLDN5
+Epithelial cells,EPCAM
+Epithelial cells,KRT18
+Epithelial cells,KRT8
+Epithelial cells,KRT19
+Epithelial cells,KRT7
+Epithelial cells,KRT5
+Epithelial cells,KRT14
+Epithelial cells,MUC1
+Epithelial cells,CDH1
+Epithelial cells,CLDN4
+Fibroblasts,COL1A1
+Fibroblasts,COL1A2
+Fibroblasts,COL1A3
+Fibroblasts,FAP
+Fibroblasts,DCN
+Fibroblasts,PDGFRA
+Fibroblasts,VIM
+Fibroblasts,THY1
+Fibroblasts,S100A4
+Macrophages,CD163
+Macrophages,CSF1R
+Macrophages,MRC1
+Macrophages,MARCO
+Macrophages,MSR1
+Macrophages,CD80
+Macrophages,CD86
+Monocytes,LYZ
+Monocytes,CCR2
+Monocytes,MS4A7
+Monocytes,CSFIR
+Monocytes,CD14
+Monocytes,FCN1
+Neutrophils,FCGR3B
+Neutrophils,CSF3R
+Neutrophils,CXCR2
+Neutrophils,MPO
+Neutrophils,ELANE
+Neutrophils,LCN2
+Neutrophils,CEACAM8
+Neutrophils,S100A8
+Neutrophils,S100A9
+NK cells,NCAM1
+NK cells,KLRD1
+NK cells,NKG7
+NK cells,GNLY
+NK cells,GZMB
+NK cells,KLRF1
+NK cells,KLRC1
+NK cells,NCR1
+NK cells,PRF1
+Platelets,PPBP
+Platelets,GP9
+Platelets,PF4
+Platelets,ITGA2B
+Platelets,ITGB3
+Platelets,GP1BA
+Platelets,SELP
+Platelets,SPARC
+Platelets,TUBB1
+Platelets,MPL
+Progenitors,PROM1
+Progenitors,GATA2
+Progenitors,RUNX1
+Progenitors,TAL1
+Progenitors,FLT3
+Progenitors,SOX4
+Progenitors,HLF
+Progenitors,HOXA9
+Progenitors,CD34
+Smooth muscle cells,TAGLN
+Smooth muscle cells,MYH11
+Smooth muscle cells,CD34+A109:B128
+Smooth muscle cells,MYL9
+Smooth muscle cells,SMTN
+Smooth muscle cells,CALD1
+Smooth muscle cells,DES
+Smooth muscle cells,MYLK
+Smooth muscle cells,TPM2
+Smooth muscle cells,ACTA2
+T cells,TRBC2
+T cells,CD3D
+T cells,CD3G
+T cells,CD3E
+T cells,LTB
+T cells,CD2
+T cells,CD7
+T cells,CD8A
+T cells,CD8B
+T cells,IL7R

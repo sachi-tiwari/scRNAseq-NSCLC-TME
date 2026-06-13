@@ -1,0 +1,68 @@
+gene,cell_type
+CD4,Naive CD4+ T cells
+CCR7,Naive CD4+ T cells
+SELL,Naive CD4+ T cells
+LEF1,Naive CD4+ T cells
+TCF7,Naive CD4+ T cells
+IL7R,Central memory CD4+ T cells
+CD27,Central memory CD4+ T cells
+CD45RO,Central memory CD4+ T cells
+GZMK,Effector memory CD4+ T cells
+CD69,Effector memory CD4+ T cells
+FOXP3,Tumor-infiltrating Tregs
+IL2RA,Tumor-infiltrating Tregs
+TNFRSF18,Tumor-infiltrating Tregs
+IKZF2,Tumor-infiltrating Tregs
+TBX21,Th1 cells
+IFNG,Th1 cells
+CXCR3,Th1 cells
+GATA3,Th2 cells
+IL4,Th2 cells
+IL5,Th2 cells
+IL13,Th2 cells
+CCR4,Th2 cells
+RORC,Th17 cells
+IL17A,Th17 cells
+IL23R,Th17 cells
+CCR6,Th17 cells
+CXCR5,T follicular helper cells
+BCL6,T follicular helper cells
+ICOS,T follicular helper cells
+CD8A,Naive CD8+ T cells
+GZMB,Effector CD8+ T cells
+PRF1,Effector CD8+ T cells
+NKG7,Effector CD8+ T cells
+GNLY,Effector CD8+ T cells
+GZMH,Effector CD8+ T cells
+LDHA,Effector CD8+ T cells
+CD44,Memory CD8+ T cells
+IDH2,Memory CD8+ T cells
+PDCD1,Exhausted CD8+ T cells
+LAG3,Exhausted CD8+ T cells
+HAVCR2,Exhausted CD8+ T cells
+TIGIT,Exhausted CD8+ T cells
+TOX,Exhausted CD8+ T cells
+HIF1A,Exhausted CD8+ T cells
+CTLA4,Exhausted CD8+ T cells
+SLAMF6,Progenitor exhausted CD8+ T cells
+ENTPD1,Terminally exhausted CD8+ T cells
+CD38,Terminally exhausted CD8+ T cells
+ITGAE,Tissue-resident memory T cells
+CXCR6,Tissue-resident memory T cells
+CD49a,Tissue-resident memory T cells
+ZFP36L2,Tissue-resident memory T cells
+TRDC,Gamma-delta T cells
+TRGC1,Gamma-delta T cells
+TRGV9,Gamma-delta T cells
+TRDV2,Gamma-delta T cells
+KLRB1,Gamma-delta T cells
+TYROBP,Gamma-delta T cells
+MKI67,Cycling T cells
+TOP2A,Cycling T cells
+CDK1,Cycling T cells
+STMN1,Cycling T cells
+FOS,Immediate-early T cells
+JUN,Immediate-early T cells
+DUSP1,Immediate-early T cells
+IER2,Immediate-early T cells
+CXCR4,Tissue-resident memory T cells
